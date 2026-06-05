@@ -14,10 +14,15 @@ The project demonstrates a forensic workflow integrating the **FACILE** (Factori
 To reproduce the results discussed in the report, follow these steps:
 
 ### 1. Prerequisites
-Ensure you have Python 3.10+ installed. You will need Jupyter Notebook or JupyterLab to run the `.ipynb` files.
-You will also need an active API key for the LLMs used in the notebooks (e.g., OpenAI API key) if you intend to re-run the inference.
+The project was originally developed and executed in **Google Colab**. The notebooks are configured for Colab by default but can be easily adjusted for a local environment.
+If running locally, ensure you have Python 3.10+ installed and Jupyter Notebook/Lab.
+You will also need an active API key for the LLMs used in the notebooks (openrouter) if you intend to re-run the inference.
 
 ### 2. Environment Setup
+**For Google Colab:**
+Simply upload the notebooks to Google Colab and run them. You must also ensure that the `shaprag` package folder (included in this repository) is uploaded and present in your working directory.
+
+**For Local Execution:**
 Clone this repository and install the necessary dependencies:
 
 ```bash
@@ -25,7 +30,7 @@ git clone https://github.com/symoh27/INFO-H512-LLMX_RAG.git
 cd INFO-H512-LLMX_RAG
 pip install jupyter pandas numpy scikit-learn matplotlib seaborn
 ```
-*Note: This implementation utilizes the `SHapRAG` package logic as outlined in the methodology.*
+*Note: Make sure the included `shaprag` package folder remains in your working directory alongside the notebooks so it can be imported correctly.*
 
 ### 3. Step-by-Step Execution
 
