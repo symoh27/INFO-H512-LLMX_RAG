@@ -20,7 +20,7 @@ You will also need an active API key for the LLMs used in the notebooks (openrou
 
 ### 2. Environment Setup
 **For Google Colab:**
-Simply upload the notebooks to Google Colab and run them. You must also ensure that the `shaprag` package folder (included in this repository) is uploaded and present in your working directory.
+Simply upload the notebooks to Google Colab and run them. You must also ensure that the `SHapRAG` package folder (included in this repository) is uploaded and present in your working directory.
 
 **For Local Execution:**
 Clone this repository and install the necessary dependencies:
@@ -30,7 +30,7 @@ git clone https://github.com/symoh27/INFO-H512-LLMX_RAG.git
 cd INFO-H512-LLMX_RAG
 pip install jupyter pandas numpy scikit-learn matplotlib seaborn
 ```
-*Note: Make sure the included `shaprag` package folder remains in your working directory alongside the notebooks so it can be imported correctly.*
+*Note: Make sure the included `SHapRAG` package folder remains in your working directory alongside the notebooks so it can be imported correctly.*
 
 ### 3. Step-by-Step Execution
 
